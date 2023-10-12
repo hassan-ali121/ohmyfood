@@ -51,6 +51,9 @@ img {
       margin-left: 5px;
     }
   }
+  .back-arrow {
+    display: none;
+  }
   .menu-section {
     background: #eaeaea;
     .section {
@@ -819,8 +822,14 @@ img {
       animation-delay: #{$i * 0.5}s;
     }
   }
+  .logo-link {
+    pointer-events: none;
+  }
 }
 @media only screen and (max-width: 786px) {
+  .logo-link {
+    pointer-events: none;
+  }
   #header-index {
     .logo {
       display: flex;
@@ -1122,7 +1131,15 @@ img {
         padding-top: 20px;
         padding-bottom: 20px;
         padding-left: 10px;
+        h3 {
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+        }
         p {
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
           margin-top: 5px;
           color: #8f8989;
         }

@@ -48,6 +48,9 @@ img {
     font-size: 24px;
     margin-left: 5px;
   }
+  .back-arrow {
+    display: none;
+  }
   .menu-section {
     background: #eaeaea;
   }
@@ -771,8 +774,14 @@ img {
   .content:nth-child(3) {
     animation-delay: 1.5s;
   }
+  .logo-link {
+    pointer-events: none;
+  }
 }
 @media only screen and (max-width: 786px) {
+  .logo-link {
+    pointer-events: none;
+  }
   #header-index .logo {
     display: flex;
     align-items: center;
@@ -1049,7 +1058,15 @@ img {
     padding-bottom: 20px;
     padding-left: 10px;
   }
+  .entrees .content-items h3 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
   .entrees .content-items p {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
     margin-top: 5px;
     color: #8f8989;
   }
