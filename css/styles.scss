@@ -214,13 +214,22 @@ img {
         flex-direction: column;
         border-radius: 20px;
         width: 40%;
-
-        img {
-          width: 100%;
-          height: 175px;
-          border-radius: 25px 25px 0px 0px;
+        .img {
+          position: relative;
+          img {
+            width: 100%;
+            height: 175px;
+            border-radius: 25px 25px 0px 0px;
+          }
+          .new {
+            position: absolute;
+            background: $tertiary-color;
+            color: #0b9374;
+            right: 22px;
+            top: 14px;
+            padding: 5px 22px;
+          }
         }
-
         .content {
           align-items: center;
           display: flex;
@@ -466,6 +475,11 @@ img {
       box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
       font-size: 18px;
       background: linear-gradient(0deg, #9356dc, #ff79da);
+      transition: background 10s ease;
+
+      &:hover {
+        background: linear-gradient(0deg, #9070b7, #760a58);
+      }
       a {
         color: white;
       }
@@ -646,11 +660,22 @@ img {
         flex-direction: column;
         border-radius: 20px;
         width: 40%;
+        .img {
+          position: relative;
 
-        img {
-          width: 100%;
-          height: 175px;
-          border-radius: 25px 25px 0px 0px;
+          img {
+            width: 100%;
+            height: 175px;
+            border-radius: 25px 25px 0px 0px;
+          }
+          .new {
+            position: absolute;
+            background-color: $tertiary-color;
+            right: 22px;
+            top: 15px;
+            padding: 5px 22px;
+            color: #0b9374;
+          }
         }
 
         .content {
@@ -887,6 +912,11 @@ img {
       box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
       font-size: 18px;
       background: linear-gradient(0deg, #9356dc, #ff79da);
+      transition: background 10s ease;
+
+      &:hover {
+        background: linear-gradient(0deg, #9070b7, #760a58);
+      }
       a {
         color: white;
       }
@@ -1076,11 +1106,21 @@ img {
         flex-direction: column;
         border-radius: 20px;
         width: 100%;
-
-        img {
-          width: 100%;
-          height: 175px;
-          border-radius: 25px 25px 0px 0px;
+        .img {
+          position: relative;
+          img {
+            width: 100%;
+            height: 175px;
+            border-radius: 25px 25px 0px 0px;
+          }
+          .new {
+            position: absolute;
+            background-color: $tertiary-color;
+            right: 22px;
+            top: 15px;
+            padding: 5px 22px;
+            color: #0b9374;
+          }
         }
         .content {
           align-items: center;
@@ -1315,6 +1355,11 @@ img {
       box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
       font-size: 18px;
       background: linear-gradient(0deg, #9356dc, #ff79da);
+      transition: background 10s ease;
+
+      &:hover {
+        background: linear-gradient(0deg, #9070b7, #760a58);
+      }
       a {
         color: white;
       }
