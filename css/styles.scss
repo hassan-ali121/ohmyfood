@@ -167,10 +167,12 @@ img {
 
         padding: 40px 24px;
       }
-      h3 {
+      .button-heading {
         padding: 17px 10px;
+        font-size: 20px; /* Example font size */
+        font-weight: bold; /* Example font weight */
       }
-      section {
+      .button-number {
         display: flex;
         align-items: center;
         width: 33px;
@@ -613,11 +615,13 @@ img {
         padding-left: 21px;
         padding-right: 10px;
       }
-      h3 {
+      .button-heading {
         padding-left: 0px;
         padding-right: 10px;
+        font-size: 20px; /* Example font size */
+        font-weight: bold; /* Example font weight */
       }
-      section {
+      .button-number {
         display: flex;
         align-items: center;
         width: 33px;
@@ -920,9 +924,6 @@ img {
       &:hover {
         background: linear-gradient(0deg, #9070b7, #760a58);
       }
-      a {
-        color: white;
-      }
     }
   }
   // Define the base styles for .content elements
@@ -1065,10 +1066,12 @@ img {
         margin-left: 1vw;
         padding: 40px 18px;
       }
-      h3 {
+      .button-heading {
         padding: 17px 0px;
+        font-size: 20px; /* Example font size */
+        font-weight: bold; /* Example font weight */
       }
-      section {
+      .button-number {
         display: flex;
         align-items: center;
         width: 33px;
